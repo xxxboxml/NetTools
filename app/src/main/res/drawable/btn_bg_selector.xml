@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--未按下状态的设置-->
+    <item android:state_pressed="false">
+        <!--设置背景形状-->
+        <shape>
+            <!--设置圆角-->
+            <corners android:radius="100dp" />
+            <!--设置背景颜色-->
+            <solid android:color="@color/main_theme_color" />
+        </shape>
+    </item>
+    <!--按下状态的设置-->
+    <item android:state_pressed="true">
+        <shape>
+            <corners android:radius="100dp" />
+            <solid android:color="@color/guide_icon_gray" />
+        </shape>
+    </item>
+</selector>
